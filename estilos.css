@@ -1,4 +1,4 @@
-.baner {
+.banner{
   width: 700px;
   height: 300px;
   border: 3px solid red;
@@ -12,35 +12,31 @@
   animation-direction: alternate;
 }
 
-h2 {
+h2{
   color: blue;
 }
 
 @keyframes banner {
 
-  0%,
-  30% {
+  0%, 30% {
     background-image: url(img/imagen1.jpg);
     opacity: 1;
   }
 
-  31%, 34%{
+  31%, 34% {
     opacity: 0.1;
   }
 
-  35%,
-  65% {
+  35%, 65% {
     background-image: url(img/imagen2.jpg);
     opacity: 1;
   }
 
-  66%,
-  69% {
+  66%, 69% {
     opacity: 0.1;
   }
 
-  70%,
-  100% {
+  70%, 100% {
     background-image: url(img/imagen3.jpg);
   }
 }
