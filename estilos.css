@@ -12,6 +12,10 @@
   animation-direction: alternate;
 }
 
+h2 {
+  color: blue;
+}
+
 @keyframes banner {
 
   0%,
